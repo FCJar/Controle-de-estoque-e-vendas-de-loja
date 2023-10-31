@@ -17,7 +17,6 @@ public:
     void criarPedido(int id,std::string formaPagamento,std::string enderecoVenda,double salario);
     void venderProduto(Estoque* e,std::string Produto);
     void removerProduto(Estoque* e,std::string Produto);
-    void alterarDados(int id,std::string formaPagamento,std::string enderecoVenda,double salario);
     void finalizarPedido(Caixa* cx2);
     void deletarPedido(Estoque* e);
     int getId();    
