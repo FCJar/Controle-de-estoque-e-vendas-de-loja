@@ -17,7 +17,6 @@ private:
 public:
     Caixa(int idCx);
     int getIdCx();
-    int getIdComanda();
     double getDinhieroCx();
     double  getLucroTota();
     void addComanda(Pedido* Pedido);
