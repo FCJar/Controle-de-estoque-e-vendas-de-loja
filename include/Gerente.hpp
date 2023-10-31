@@ -12,7 +12,7 @@ class Gerente : public Funcionario
 private:
     int senha_;
 public:
-    Gerente(int senha,int id,std::string formaPagamento,std::string enderecoVenda,double salario);
+    Gerente(int senha,int id,std::string cpf,std::string nomeCompleto,double salario);
     bool consultarSenha(int id,int senha);
     double consultarLucroTotal(Estoque* e);
     double consultarLucroPorDia(std::string dia);
