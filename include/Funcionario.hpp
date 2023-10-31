@@ -20,10 +20,7 @@ public:
     void alterarDados(int id,std::string formaPagamento,std::string enderecoVenda,double salario);
     void finalizarPedido(Caixa* cx2);
     void deletarPedido(Estoque* e);
-    int getId();
-    double consutarDesempenhoVendas(Caixa* cx2);
-    double consutarDesempenhoVendasDiarias(Caixa* cx2,std::string dia);
-    
+    int getId();    
 };
 
 
