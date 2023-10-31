@@ -19,8 +19,8 @@ public:
     int getIdCx();
     double getDinhieroCx();
     double  getLucroTota();
-    void addComanda(Pedido* Pedido);
-    void removeComanda(int idComanda);
+    void addPedido(Pedido* Pedido);
+    void removePedido(int idComanda);
     double retornarLucroDiario(std::string dia);
     double retornarDinheiroCxDia(std::string dia);
     double retornarVendasPorFuncionario(int idfuncionario);
