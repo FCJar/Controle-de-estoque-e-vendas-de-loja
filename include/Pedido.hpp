@@ -18,7 +18,7 @@ public:
     Pedido(int idAtendente, std::string formaPagamento, std::string endereco);
     void setIdPedido(int id);
     void addProduto(Produto* p);
-    void removeProduto(std::string produtoNome);
+    Produto* removeProduto(std::string produtoNome);
     int getId();
     int getIdAtendente();
     double getPrecoTotal();
