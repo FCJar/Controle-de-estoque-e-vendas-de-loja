@@ -14,7 +14,7 @@ private:
 public:
     Gerente(int senha,int id,std::string cpf,std::string nomeCompleto,double salario);
     bool consultarSenha(int id,int senha);
-    double consultarLucroTotal(Estoque* e);
+    double consultarLucroTotal(Caixa* cx2);
     double consultarLucroPorDia(std::string dia);
     double consultarVendasPorFuncionario(int idfuncionario);
     double consultarVendasDiarioPorFuncionario(int idfuncionario, std::string dia);
