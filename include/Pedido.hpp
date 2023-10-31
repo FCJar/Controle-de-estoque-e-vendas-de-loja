@@ -23,6 +23,7 @@ public:
     int getIdAtendente();
     double getPrecoTotal();
     double getLucroPorVenda();
+    std::vector<Produto*> esvaziarPedido();
     std::string getFormaPagamento();
     std::string getDataVenda();
     std::string getEndereco();
