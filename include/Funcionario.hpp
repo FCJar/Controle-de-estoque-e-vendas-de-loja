@@ -13,6 +13,7 @@ private:
     std::string cpf_,nomeCompleto_;
     double salario_;
 public:
+    Funcionario(int id,std::string cpf,std::string nomeCompleto,double salario);
     void criarPedido(int id,std::string formaPagamento,std::string enderecoVenda,double salario);
     void venderProduto(Estoque* e,std::string Produto);
     void removerProduto(Estoque* e,std::string Produto);
