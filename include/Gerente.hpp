@@ -15,9 +15,9 @@ public:
     Gerente(int senha,int id,std::string cpf,std::string nomeCompleto,double salario);
     bool consultarSenha(int id,int senha);
     double consultarLucroTotal(Caixa* cx2);
-    double consultarLucroPorDia(std::string dia);
-    double consultarVendasPorFuncionario(int idfuncionario);
-    double consultarVendasDiarioPorFuncionario(int idfuncionario, std::string dia);
+    double consultarLucroPorDia(Caixa* cx2,std::string dia);
+    double consultarVendasPorFuncionario(Caixa* cx2,int idfuncionario);
+    double consultarVendasDiarioPorFuncionario(Caixa* cx2,int idfuncionario, std::string dia);
     void addProdutoEstoque(Estoque* e, Produto* p);
 };
 
