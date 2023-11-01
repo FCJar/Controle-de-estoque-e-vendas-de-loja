@@ -11,16 +11,16 @@
 class Caixa
 {
 private:
-    int idCaixa_,idComanda_;
+    int idCaixa_;
     double dinheiroCaixa_,lucroTotal_;
-    std::vector <Pedido*> comandaPagas_;
+    std::vector <Pedido*> pedidosPagos_;
 public:
     Caixa(int idCx);
+    void addPedidoPago(Pedido* pedido);
+    void removePedido(int idComanda);
     int getIdCx();
     double getDinhieroCx();
     double  getLucroTota();
-    void addPedido(Pedido* Pedido);
-    void removePedido(int idComanda);
     double retornarLucroDiario(std::string dia);
     double retornarDinheiroCxDia(std::string dia);
     double retornarVendasPorFuncionario(int idfuncionario);

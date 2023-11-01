@@ -12,9 +12,10 @@ private:
     int id_;
     std::string cpf_,nomeCompleto_;
     double salario_;
+    Pedido* pendente;
 public:
     Funcionario(int id,std::string cpf,std::string nomeCompleto,double salario);
-    void criarPedido(int id,std::string formaPagamento,std::string enderecoVenda,double salario);
+    void criarPedido(std::string formaPagamento,std::string enderecoVenda,std::string datavenda);
     void venderProduto(Estoque* e,std::string Produto);
     void removerProduto(Estoque* e,std::string Produto);
     void finalizarPedido(Caixa* cx2);

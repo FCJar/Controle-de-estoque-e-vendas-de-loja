@@ -7,7 +7,7 @@ Produto::Produto(int id, std::string nome, std::string tipo, double preco, doubl
     preco_=preco;
     lucroProduto_=lucroProduto;
 }
-void Produto::alterarDados( std::string nome, std::string tipo, double preco, double lucroProduto){
+void Produto::alterarDados(std::string nome, std::string tipo, double preco, double lucroProduto){
     nome_=nome;
     tipo_=tipo;
     preco_=preco;
@@ -30,4 +30,4 @@ double Produto::getLucroProduto(){
 }
 std::string Produto::getDataValidade(){
     return dataValidade_;
-};
+}

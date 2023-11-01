@@ -15,7 +15,7 @@ private:
    std::string formaPagamento_, dataVenda_,endereco_;
    std::vector <Produto*> items_;
 public:
-    Pedido(int idAtendente, std::string formaPagamento, std::string endereco);
+    Pedido(int idAtendente, std::string formaPagamento, std::string endereco,std::string DataVenda);
     void setIdPedido(int id);
     void addProduto(Produto* p);
     Produto* removeProduto(std::string produtoNome);

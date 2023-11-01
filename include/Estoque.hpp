@@ -12,7 +12,7 @@ private:
     std::vector <Produto*> produtos_;
     int idRegistro_;
 public:
-    Estoque();
+    Estoque(int id);
     void removerProdutoNome(std::string nomeProduto);
     void adcionarProduto(Produto* p);
     Produto* venderProduto(std::string nomeProduto);
