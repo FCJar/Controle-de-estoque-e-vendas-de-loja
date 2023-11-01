@@ -17,7 +17,7 @@ void Funcionario::removerProduto(Estoque* e,std::string produto){
     e->adcionarProduto(pendente->removeProduto(produto));
 }
 void Funcionario::finalizarPedido(Caixa* cx2){
-    cx2->addPedido(pendente);
+    cx2->addPedidoPago(pendente);
     pendente=nullptr;
 }
 void Funcionario::deletarPedido(Estoque* e){
