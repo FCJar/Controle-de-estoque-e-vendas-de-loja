@@ -1,4 +1,4 @@
-#include"include/Estoque.hpp"
+#include"../include/Estoque.hpp"
 
 Estoque::Estoque(int id){
     idRegistro_=id;

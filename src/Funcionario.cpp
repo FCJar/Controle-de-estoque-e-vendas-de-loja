@@ -1,4 +1,4 @@
-#include"include/Funcionario.hpp"
+#include"../include/Funcionario.hpp"
 
 Funcionario::Funcionario(int id,std::string cpf,std::string nomeCompleto,double salario){
     id_=id;

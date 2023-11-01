@@ -1,4 +1,4 @@
-#include"include/Gerente.hpp"
+#include"../include/Gerente.hpp"
 
 Gerente::Gerente(int senha,int id,std::string cpf,std::string nomeCompleto,double salario) 
 : Funcionario(id,cpf,nomeCompleto,salario) {

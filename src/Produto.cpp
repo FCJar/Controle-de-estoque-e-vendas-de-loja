@@ -1,4 +1,4 @@
-#include"include/Produto.hpp"
+#include"../include/Produto.hpp"
 
 Produto::Produto(int id, std::string nome, std::string tipo, double preco, double lucroProduto){
     id_=id;

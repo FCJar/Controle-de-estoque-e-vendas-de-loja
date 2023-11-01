@@ -1,4 +1,4 @@
-#include"include/Caixa.hpp"
+#include"../include/Caixa.hpp"
 Caixa::Caixa(int idCx){
     idCaixa_=idCx;
 }
@@ -47,7 +47,7 @@ double Caixa::retornarVendasPorFuncionario(int idfuncionario){
     return auxLucro;
 }
 double Caixa::retornarVendasPorDiaPorFuncionario(int idfuncionario, std::string dia){
-    double auxLucro;
+        double auxLucro;
     for (auto it=pedidosPagos_.begin();it!=pedidosPagos_.end();it++)
     {
         if((*it)->getIdAtendente()==idfuncionario && (*it)->getDataVenda()==dia){

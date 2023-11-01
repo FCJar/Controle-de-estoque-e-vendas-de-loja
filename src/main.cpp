@@ -1,7 +1,7 @@
-#include "include/Pedido.hpp"
-#include "include/Caixa.hpp"
-#include "include/Estoque.hpp"
-#include "include/Produto.hpp"
+#include "../include/Pedido.hpp"
+#include "../include/Caixa.hpp"
+#include "../include/Estoque.hpp"
+#include "../include/Produto.hpp"
 
 int main(){
     Caixa* cx=new Caixa(1);
