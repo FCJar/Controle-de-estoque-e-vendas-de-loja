@@ -5,6 +5,7 @@
 #include "Caixa.hpp"
 #include "Estoque.hpp"
 #include "Produto.hpp"
+#include "Funcionario.hpp"
 
 
 class Gerente : public Funcionario

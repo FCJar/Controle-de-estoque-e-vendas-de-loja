@@ -6,7 +6,7 @@
 
 #include"Produto.hpp"
 #include"Pedido.hpp"
-#include"Funcionario.hpp"
+//#include"Funcionario.hpp"
 
 class Caixa
 {
