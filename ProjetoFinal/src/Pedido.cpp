@@ -12,8 +12,8 @@ void Pedido::setIdPedido(int id){
     idPedido_=id;
 }
 void Pedido::addProduto(Produto* p){
-    precoTotal_+=p->getPreco();
-    lucroPorVenda_+=p->getLucroProduto();
+    precoTotal_+=p->getPreco()*(p->getQtd());
+    lucroPorVenda_+=p->getLucroProduto()*(p->getQtd());
     items_.push_back(p);
 }
 Produto* Pedido::removeProduto(std::string pNome){
