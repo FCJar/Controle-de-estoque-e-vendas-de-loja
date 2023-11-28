@@ -240,7 +240,7 @@ build ProjetoFinal_autogen/timestamp ProjetoFinal_autogen/mocs_compilation.cpp |
 #############################################
 # Phony custom command for CMakeFiles\ProjetoFinal_autogen_timestamp_deps
 
-build CMakeFiles/ProjetoFinal_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ProjetoFinal_autogen_timestamp_deps: phony C$:/Qt/6.5.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.1/mingw_64/./bin/uic.exe C$:/Qt/6.5.1/mingw_64/./bin/moc.exe C$:/Qt/6.5.1/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/ProjetoFinal_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ProjetoFinal_autogen_timestamp_deps: phony C$:/Qt/6.5.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.1/mingw_64/./bin/moc.exe C$:/Qt/6.5.1/mingw_64/./bin/uic.exe C$:/Qt/6.5.1/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################
