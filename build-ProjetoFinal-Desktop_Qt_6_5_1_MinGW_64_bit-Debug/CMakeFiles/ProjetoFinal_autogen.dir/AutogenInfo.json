@@ -301,6 +301,12 @@
 			"MU",
 			"XBG7L5Z4V6/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.h",
+			"MU",
+			"XBG7L5Z4V6/moc_venderprodutos.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -384,6 +390,11 @@
 		],
 		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.cpp",
 			"MU",
 			null
 		],

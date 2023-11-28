@@ -7,6 +7,8 @@
 #include "Produto.hpp"
 #include "Funcionario.hpp"
 
+#include<exception>
+
 
 class Gerente : public Funcionario
 {

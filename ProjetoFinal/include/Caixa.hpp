@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<vector>
+#include<exception>
 
 #include"Produto.hpp"
 #include"Pedido.hpp"

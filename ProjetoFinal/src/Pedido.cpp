@@ -16,13 +16,21 @@ void Pedido::addProduto(Produto* p){
     lucroPorVenda_+=p->getLucroProduto()*(p->getQtd());
     items_.push_back(p);
 }
-Produto* Pedido::removeProduto(std::string pNome){
+Produto* Pedido::removeProduto(std::string pNome,int qtd){
     Produto* aux;
     for(auto it=items_.begin();it!=items_.end();it++){
         if(pNome==(*it)->getNome()){
-            aux=(*it);
-            items_.erase(it);
-            break;   
+            if(qtd<(*it)->getQtd()){
+                (*it)->removeQtd(qtd);
+                break;
+            }if(qtd==(*it)->getQtd()){
+                aux=(*it);
+                items_.erase(it);
+                break;
+            }else {
+                throw std::invalid_argument("Quantidade invalida");
+                break;
+            }
         }
     }
 }

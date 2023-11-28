@@ -2,7 +2,7 @@
 #define PRODUTO_HPP
 
 #include<string>
-
+#include<exception>
 class Produto
 {
 private:

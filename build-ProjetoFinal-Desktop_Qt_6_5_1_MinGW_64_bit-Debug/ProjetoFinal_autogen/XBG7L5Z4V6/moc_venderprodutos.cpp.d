@@ -1,4 +1,4 @@
-C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/XBG7L5Z4V6/moc_mainwindow.cpp: C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h \
+C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/XBG7L5Z4V6/moc_venderprodutos.cpp: C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.h \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/moc_predefs.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -133,11 +133,8 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/QDialog \
-  C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -363,8 +360,5 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Caixa.hpp \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Estoque.hpp \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Funcionario.hpp \
-  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Pedido.hpp \
-  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp \
-  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h \
-  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.h
+  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp

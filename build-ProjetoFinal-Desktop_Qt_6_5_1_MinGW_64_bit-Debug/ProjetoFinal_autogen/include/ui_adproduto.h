@@ -107,7 +107,7 @@ public:
         label_4->setText(QCoreApplication::translate("AdProduto", "Pre\303\247o", nullptr));
         label_5->setText(QCoreApplication::translate("AdProduto", "Lucro", nullptr));
         label_6->setText(QCoreApplication::translate("AdProduto", "*Insira os dados dos Produtos", nullptr));
-        label_7->setText(QCoreApplication::translate("AdProduto", "Pagina de Cadastro", nullptr));
+        label_7->setText(QCoreApplication::translate("AdProduto", "Pagina de Cadastro de Produto", nullptr));
         label_8->setText(QCoreApplication::translate("AdProduto", "Quantidade", nullptr));
         label_9->setText(QCoreApplication::translate("AdProduto", "*Complete todos os Espa\303\247os", nullptr));
     } // retranslateUi

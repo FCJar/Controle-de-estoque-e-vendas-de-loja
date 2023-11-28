@@ -11,6 +11,7 @@
 #include "../include/Produto.hpp"
 
 #include "adproduto.h"
+#include "venderprodutos.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -39,8 +40,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    Estoque *E0=new Estoque(1);
+    Estoque *e0=new Estoque(1);
     Caixa *cx;
-    std::vector<Funcionario> *Funcs;
+    std::vector<Funcionario*> funcs;
 };
 #endif // MAINWINDOW_H

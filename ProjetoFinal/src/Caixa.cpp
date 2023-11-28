@@ -27,7 +27,7 @@ double Caixa::retornarLucroDiario(std::string dia){
     return lucroTotal_;
 }
 double Caixa::retornarDinheiroCxDia(std::string dia){
-    double auxLucro;
+    double auxLucro=0.0;
     for (auto it=pedidosPagos_.begin();it!=pedidosPagos_.end();it++)
     {
         if((*it)->getDataVenda()==dia){
@@ -37,7 +37,7 @@ double Caixa::retornarDinheiroCxDia(std::string dia){
     return auxLucro;
 }
 double Caixa::retornarVendasPorFuncionario(int idfuncionario){
-    double auxLucro;
+    double auxLucro=0.0;
     for (auto it=pedidosPagos_.begin();it!=pedidosPagos_.end();it++)
     {
         if((*it)->getIdAtendente()==idfuncionario){
@@ -47,7 +47,7 @@ double Caixa::retornarVendasPorFuncionario(int idfuncionario){
     return auxLucro;
 }
 double Caixa::retornarVendasPorDiaPorFuncionario(int idfuncionario, std::string dia){
-        double auxLucro;
+        double auxLucro=0.0;
     for (auto it=pedidosPagos_.begin();it!=pedidosPagos_.end();it++)
     {
         if((*it)->getIdAtendente()==idfuncionario && (*it)->getDataVenda()==dia){

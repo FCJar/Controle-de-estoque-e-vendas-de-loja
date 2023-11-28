@@ -13,8 +13,8 @@ void Funcionario::venderProduto(Estoque* e,std::string prod,int qtd){
     Produto* aux=e->venderProduto(prod,qtd);
     pendente->addProduto(aux);
 }
-void Funcionario::removerProduto(Estoque* e,std::string produto){
-    e->adcionarProduto(pendente->removeProduto(produto));
+void Funcionario::removerProduto(Estoque* e,std::string produto,int qtd){
+        e->adcionarProduto(pendente->removeProduto(produto,qtd));
 }
 void Funcionario::finalizarPedido(Caixa* cx2){
     cx2->addPedidoPago(pendente);
@@ -29,3 +29,7 @@ void Funcionario::deletarPedido(Estoque* e){
 int Funcionario::getId(){
     return id_;
 }
+std::string Funcionario::getnomeCompleto(){
+    return nomeCompleto_;
+}
+

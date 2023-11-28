@@ -20,6 +20,9 @@ set(PROJECT_SOURCES
         interface/AdProduto.cpp
         interface/AdProduto.h
         interface/AdProduto.ui
+        interface/venderprodutos.h
+        interface/venderprodutos.cpp
+        interface/venderprodutos.ui
         include/Caixa.hpp
         include/Estoque.hpp
         include/Funcionario.hpp

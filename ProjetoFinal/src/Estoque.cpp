@@ -3,11 +3,19 @@
 Estoque::Estoque(int id){
     idRegistro_=id;
 }
-void Estoque::removerProdutoNome(std::string nomeProduto){
+void Estoque::removerProdutoNome(std::string nomeProduto,int qtd){
     for(auto it=produtos_.begin();it!=produtos_.end();it++){
         if((*it)->getNome()==nomeProduto){
-            produtos_.erase(it);
-            break;
+            if((*it)->getQtd()==qtd){
+                produtos_.erase(it);
+                break;
+            }else if((*it)->getQtd()>qtd){
+                (*it)->removeQtd(qtd);
+                break;
+            }else{
+                throw std::invalid_argument("Quantidade invalida");
+                break;
+            }
         }
     }
 }
@@ -42,7 +50,6 @@ Produto* Estoque::venderProduto(std::string nomeProduto,int qtd){
             }
         }
     }
-
     return auxp;
 }
 std::vector <Produto> Estoque::infoRegistroProdutos(){

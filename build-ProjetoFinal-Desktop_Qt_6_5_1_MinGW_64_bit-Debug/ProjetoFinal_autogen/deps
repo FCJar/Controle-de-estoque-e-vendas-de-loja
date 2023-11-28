@@ -536,6 +536,8 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/main.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Caixa.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Estoque.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Funcionario.cpp \
@@ -549,4 +551,5 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/moc_predefs.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.ui \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.ui \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

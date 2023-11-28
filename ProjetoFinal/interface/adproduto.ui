@@ -114,7 +114,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Pagina de Cadastro</string>
+    <string>Pagina de Cadastro de Produto</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">

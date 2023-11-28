@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include<exception>
 
 #include "Produto.hpp"
 #include "Estoque.hpp"
@@ -18,7 +19,7 @@ public:
     Pedido(int idAtendente, std::string formaPagamento, std::string endereco,std::string DataVenda);
     void setIdPedido(int id);
     void addProduto(Produto* p);
-    Produto* removeProduto(std::string produtoNome);
+    Produto* removeProduto(std::string produtoNome,int qtd);
     int getId();
     int getIdAtendente();
     double getPrecoTotal();
