@@ -9,8 +9,8 @@ Funcionario::Funcionario(int id,std::string cpf,std::string nomeCompleto,double 
 void Funcionario::criarPedido(std::string formaPagamento,std::string enderecoVenda,std::string datavenda){
     pendente=new Pedido(this->id_,formaPagamento,enderecoVenda,datavenda);
 }
-void Funcionario::venderProduto(Estoque* e,std::string prod){
-    Produto* aux=e->venderProduto(prod);
+void Funcionario::venderProduto(Estoque* e,std::string prod,int qtd){
+    Produto* aux=e->venderProduto(prod,qtd);
     pendente->addProduto(aux);
 }
 void Funcionario::removerProduto(Estoque* e,std::string produto){

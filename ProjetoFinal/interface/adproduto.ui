@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Salvar</string>
+    <string>Adcionar</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -188,6 +188,19 @@
      <width>191</width>
      <height>28</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>90</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*Complete todos os Espaços</string>
    </property>
   </widget>
  </widget>

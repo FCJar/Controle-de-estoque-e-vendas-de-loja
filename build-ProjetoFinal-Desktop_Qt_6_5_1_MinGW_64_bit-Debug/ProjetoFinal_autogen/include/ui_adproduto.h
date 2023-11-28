@@ -36,6 +36,7 @@ public:
     QLineEdit *Preco_txt;
     QLineEdit *Tipo_txt;
     QLineEdit *Qtd_txt;
+    QLabel *label_9;
 
     void setupUi(QDialog *AdProduto)
     {
@@ -87,6 +88,9 @@ public:
         Qtd_txt = new QLineEdit(AdProduto);
         Qtd_txt->setObjectName("Qtd_txt");
         Qtd_txt->setGeometry(QRect(120, 270, 191, 28));
+        label_9 = new QLabel(AdProduto);
+        label_9->setObjectName("label_9");
+        label_9->setGeometry(QRect(320, 90, 191, 20));
 
         retranslateUi(AdProduto);
 
@@ -96,7 +100,7 @@ public:
     void retranslateUi(QDialog *AdProduto)
     {
         AdProduto->setWindowTitle(QCoreApplication::translate("AdProduto", "Dialog", nullptr));
-        SalvarBt->setText(QCoreApplication::translate("AdProduto", "Salvar", nullptr));
+        SalvarBt->setText(QCoreApplication::translate("AdProduto", "Adcionar", nullptr));
         label->setText(QCoreApplication::translate("AdProduto", "Id", nullptr));
         label_2->setText(QCoreApplication::translate("AdProduto", "Nome", nullptr));
         label_3->setText(QCoreApplication::translate("AdProduto", "Tipo", nullptr));
@@ -105,6 +109,7 @@ public:
         label_6->setText(QCoreApplication::translate("AdProduto", "*Insira os dados dos Produtos", nullptr));
         label_7->setText(QCoreApplication::translate("AdProduto", "Pagina de Cadastro", nullptr));
         label_8->setText(QCoreApplication::translate("AdProduto", "Quantidade", nullptr));
+        label_9->setText(QCoreApplication::translate("AdProduto", "*Complete todos os Espa\303\247os", nullptr));
     } // retranslateUi
 
 };

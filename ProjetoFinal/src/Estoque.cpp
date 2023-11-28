@@ -15,7 +15,7 @@ void Estoque::adcionarProduto(Produto* p){
     bool aux=true;
     for(int a=0;a<produtos_.size();a++){
         if(produtos_[a]->getNome()==p->getNome()){
-            produtos_[a]->adQtd(p->setQtd());
+            produtos_[a]->adQtd(p->getQtd());
             aux=false;
         }
     }
@@ -24,15 +24,25 @@ void Estoque::adcionarProduto(Produto* p){
     }
 
 }
-Produto* Estoque::venderProduto(std::string nomeProduto){
+Produto* Estoque::venderProduto(std::string nomeProduto,int qtd){
     Produto* auxp;
     for(auto it=produtos_.begin();it!=produtos_.end();it++){
         if((*it)->getNome()==nomeProduto){
-            auxp=*it;
-            produtos_.erase(it);
-            break;
+            if(qtd==(*it)->getQtd()){
+                auxp=*it;
+                produtos_.erase(it);
+                break;
+            }else if(qtd<(*it)->getQtd()){
+                (*it)->removeQtd(qtd);
+                auxp= new Produto(((*it)->getId()),((*it)->getNome()),((*it)->getTipo()),
+                                   ((*it)->getPreco()),((*it)->getLucroProduto()),(qtd));
+                break;
+            }else{
+                throw std::invalid_argument("");
+            }
         }
     }
+
     return auxp;
 }
 std::vector <Produto> Estoque::infoRegistroProdutos(){

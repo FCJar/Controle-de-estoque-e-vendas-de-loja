@@ -15,7 +15,7 @@ public:
     Estoque(int id);
     void removerProdutoNome(std::string nomeProduto);
     void adcionarProduto(Produto* p);
-    Produto* venderProduto(std::string nomeProduto);
+    Produto* venderProduto(std::string nomeProduto,int qtd);
     std::vector <Produto> infoRegistroProdutos();
 };
 

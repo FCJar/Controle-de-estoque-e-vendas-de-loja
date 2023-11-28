@@ -16,8 +16,11 @@ void Produto::alterarDados(std::string nome, std::string tipo, double preco, dou
 }
 void Produto::adQtd(int a){
     qtd_+=a;
+}void Produto::removeQtd(int a){
+    qtd_-=a;
 }
-int Produto::setQtd(){
+
+int Produto::getQtd(){
     return qtd_;
 }
 int Produto::getId(){

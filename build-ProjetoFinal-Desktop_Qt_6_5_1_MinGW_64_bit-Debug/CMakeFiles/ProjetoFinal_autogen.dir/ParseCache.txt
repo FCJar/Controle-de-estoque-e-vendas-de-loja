@@ -2,6 +2,8 @@
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.cpp
  uic:ui_adproduto.h
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Caixa.hpp
+C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Estoque.hpp
+C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h
  mmc:Q_OBJECT
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h
@@ -373,8 +375,6 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/Proje
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Pedido.hpp
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h
-C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp
-C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Estoque.hpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Funcionario.hpp
@@ -382,7 +382,6 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/Proje
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/main.cpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Caixa.cpp
-C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Estoque.cpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h
  mmc:Q_OBJECT
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h
@@ -746,6 +745,7 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/Proje
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Estoque.hpp
  mdp:C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp
+C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Estoque.cpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Funcionario.cpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Gerente.cpp
 C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Pedido.cpp

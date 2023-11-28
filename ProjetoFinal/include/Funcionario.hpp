@@ -16,7 +16,7 @@ private:
 public:
     Funcionario(int id,std::string cpf,std::string nomeCompleto,double salario);
     void criarPedido(std::string formaPagamento,std::string enderecoVenda,std::string datavenda);
-    void venderProduto(Estoque* e,std::string Produto);
+    void venderProduto(Estoque* e,std::string Produto,int qtd);
     void removerProduto(Estoque* e,std::string Produto);
     void finalizarPedido(Caixa* cx2);
     void deletarPedido(Estoque* e);
