@@ -12,7 +12,17 @@ void Estoque::removerProdutoNome(std::string nomeProduto){
     }
 }
 void Estoque::adcionarProduto(Produto* p){
-    produtos_.push_back(p);
+    bool aux=true;
+    for(int a=0;a<produtos_.size();a++){
+        if(produtos_[a]->getNome()==p->getNome()){
+            produtos_[a]->adQtd(p->setQtd());
+            aux=false;
+        }
+    }
+    if(aux){
+       produtos_.push_back(p);
+    }
+
 }
 Produto* Estoque::venderProduto(std::string nomeProduto){
     Produto* auxp;

@@ -13,8 +13,39 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_AdProduto_clicked()
+{
+    AdProduto ap;
+    ap.setEstoque(E0);
+    ap.exec();
+}
 
-void MainWindow::on_pushButton_6_clicked()
+
+void MainWindow::on_EEstoque_clicked()
+{
+
+}
+
+
+void MainWindow::on_AdFunc_clicked()
+{
+
+}
+
+
+void MainWindow::on_VProduto_clicked()
+{
+
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+
+}
+
+
+void MainWindow::on_RemoverPro_clicked()
 {
 
 }

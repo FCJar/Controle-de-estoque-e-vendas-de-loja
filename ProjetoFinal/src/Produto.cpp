@@ -1,17 +1,24 @@
 #include"../include/Produto.hpp"
 
-Produto::Produto(int id, std::string nome, std::string tipo, double preco, double lucroProduto){
+Produto::Produto(int id, std::string nome, std::string tipo, double preco, double lucroProduto,int qtd){
     id_=id;
     nome_=nome;
     tipo_=tipo;
     preco_=preco;
     lucroProduto_=lucroProduto;
+    qtd_=qtd;
 }
 void Produto::alterarDados(std::string nome, std::string tipo, double preco, double lucroProduto){
     nome_=nome;
     tipo_=tipo;
     preco_=preco;
     lucroProduto_=lucroProduto;
+}
+void Produto::adQtd(int a){
+    qtd_+=a;
+}
+int Produto::setQtd(){
+    return qtd_;
 }
 int Produto::getId(){
     return id_;

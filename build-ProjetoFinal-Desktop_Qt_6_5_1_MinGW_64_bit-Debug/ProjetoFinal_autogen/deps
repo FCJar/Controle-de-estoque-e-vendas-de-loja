@@ -131,7 +131,9 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Qt/6.5.1/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.5.1/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -529,6 +531,8 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Pedido.hpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/main.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h \
@@ -543,5 +547,6 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/moc_predefs.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.ui \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -291,6 +291,12 @@
 			null
 		],
 		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h",
+			"MU",
+			"XBG7L5Z4V6/moc_adproduto.cpp",
+			null
+		],
+		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h",
 			"MU",
 			"XBG7L5Z4V6/moc_mainwindow.cpp",
@@ -366,6 +372,11 @@
 	"SETTINGS_FILE" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/ProjetoFinal_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/main.cpp",
 			"MU",

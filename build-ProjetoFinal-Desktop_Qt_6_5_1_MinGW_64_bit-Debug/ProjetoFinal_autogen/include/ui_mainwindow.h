@@ -25,12 +25,11 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *pushButton;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_5;
-    QPushButton *pushButton_2;
-    QPushButton *Logout;
+    QPushButton *AdProduto;
+    QPushButton *EEstoque;
+    QPushButton *VProduto;
+    QPushButton *AdFunc;
+    QPushButton *RemoverPro;
     QStatusBar *statusbar;
     QMenuBar *menubar;
     QMenu *menuPagina_Inicial;
@@ -40,27 +39,25 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(938, 539);
-        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 85, 127);"));
+        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(172, 172, 172);\n"
+""));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(10, 50, 241, 101));
-        pushButton_3 = new QPushButton(centralwidget);
-        pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(10, 160, 241, 101));
-        pushButton_4 = new QPushButton(centralwidget);
-        pushButton_4->setObjectName("pushButton_4");
-        pushButton_4->setGeometry(QRect(10, 270, 241, 101));
-        pushButton_5 = new QPushButton(centralwidget);
-        pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setGeometry(QRect(10, 380, 241, 101));
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(260, 50, 241, 101));
-        Logout = new QPushButton(centralwidget);
-        Logout->setObjectName("Logout");
-        Logout->setGeometry(QRect(800, 30, 111, 31));
+        AdProduto = new QPushButton(centralwidget);
+        AdProduto->setObjectName("AdProduto");
+        AdProduto->setGeometry(QRect(10, 50, 241, 101));
+        EEstoque = new QPushButton(centralwidget);
+        EEstoque->setObjectName("EEstoque");
+        EEstoque->setGeometry(QRect(260, 160, 241, 101));
+        VProduto = new QPushButton(centralwidget);
+        VProduto->setObjectName("VProduto");
+        VProduto->setGeometry(QRect(10, 160, 241, 101));
+        AdFunc = new QPushButton(centralwidget);
+        AdFunc->setObjectName("AdFunc");
+        AdFunc->setGeometry(QRect(260, 50, 241, 101));
+        RemoverPro = new QPushButton(centralwidget);
+        RemoverPro->setObjectName("RemoverPro");
+        RemoverPro->setGeometry(QRect(10, 270, 241, 91));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -84,12 +81,11 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Adcionar Produto ao Estoque", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Exibir Estoque", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Modificar Dados do Produto", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("MainWindow", "Vender Produto", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Adcionar Funcionario", nullptr));
-        Logout->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));
+        AdProduto->setText(QCoreApplication::translate("MainWindow", "Adcionar Produto ao Estoque", nullptr));
+        EEstoque->setText(QCoreApplication::translate("MainWindow", "Exibir Estoque", nullptr));
+        VProduto->setText(QCoreApplication::translate("MainWindow", "Vender Produto", nullptr));
+        AdFunc->setText(QCoreApplication::translate("MainWindow", "Adcionar Funcionario", nullptr));
+        RemoverPro->setText(QCoreApplication::translate("MainWindow", "Remover Produto", nullptr));
         menuPagina_Inicial->setTitle(QCoreApplication::translate("MainWindow", "Pagina Inicial", nullptr));
     } // retranslateUi
 

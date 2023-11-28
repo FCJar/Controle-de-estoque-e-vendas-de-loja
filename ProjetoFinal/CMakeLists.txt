@@ -17,6 +17,9 @@ set(PROJECT_SOURCES
         interface/mainwindow.cpp
         interface/mainwindow.h
         interface/mainwindow.ui
+        interface/AdProduto.cpp
+        interface/AdProduto.h
+        interface/AdProduto.ui
         include/Caixa.hpp
         include/Estoque.hpp
         include/Funcionario.hpp
@@ -29,6 +32,7 @@ set(PROJECT_SOURCES
         src/Gerente.cpp
         src/Pedido.cpp
         src/Produto.cpp
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

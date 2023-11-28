@@ -132,7 +132,9 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build
   C:/Qt/6.5.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -363,4 +365,5 @@ C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Funcionario.hpp \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp \
   C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Pedido.hpp \
-  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp
+  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp \
+  C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h
