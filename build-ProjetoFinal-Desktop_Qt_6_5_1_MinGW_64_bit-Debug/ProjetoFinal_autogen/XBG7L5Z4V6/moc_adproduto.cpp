@@ -39,31 +39,27 @@ namespace {
 struct qt_meta_stringdata_CLASSAdProdutoENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSAdProdutoENDCLASS = QtMocHelpers::stringData(
     "AdProduto",
-    "on_Comfirmar_clicked",
-    "",
-    "on_SalvarBt_clicked"
+    "on_SalvarBt_clicked",
+    ""
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSAdProdutoENDCLASS_t {
-    uint offsetsAndSizes[8];
+    uint offsetsAndSizes[6];
     char stringdata0[10];
-    char stringdata1[21];
+    char stringdata1[20];
     char stringdata2[1];
-    char stringdata3[20];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSAdProdutoENDCLASS_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_CLASSAdProdutoENDCLASS_t qt_meta_stringdata_CLASSAdProdutoENDCLASS = {
     {
         QT_MOC_LITERAL(0, 9),  // "AdProduto"
-        QT_MOC_LITERAL(10, 20),  // "on_Comfirmar_clicked"
-        QT_MOC_LITERAL(31, 0),  // ""
-        QT_MOC_LITERAL(32, 19)   // "on_SalvarBt_clicked"
+        QT_MOC_LITERAL(10, 19),  // "on_SalvarBt_clicked"
+        QT_MOC_LITERAL(30, 0)   // ""
     },
     "AdProduto",
-    "on_Comfirmar_clicked",
-    "",
-    "on_SalvarBt_clicked"
+    "on_SalvarBt_clicked",
+    ""
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -75,7 +71,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSAdProdutoENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       1,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -83,11 +79,9 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSAdProdutoENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       1,    0,   20,    2, 0x08,    1 /* Private */,
 
  // slots: parameters
-    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -102,8 +96,6 @@ Q_CONSTINIT const QMetaObject AdProduto::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSAdProdutoENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<AdProduto, std::true_type>,
-        // method 'on_Comfirmar_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_SalvarBt_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -116,7 +108,7 @@ void AdProduto::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         auto *_t = static_cast<AdProduto *>(_o);
         (void)_t;
         switch (_id) {
-        case 1: _t->on_SalvarBt_clicked(); break;
+        case 0: _t->on_SalvarBt_clicked(); break;
         default: ;
         }
     }
@@ -142,13 +134,13 @@ int AdProduto::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 1;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 1;
     }
     return _id;
 }

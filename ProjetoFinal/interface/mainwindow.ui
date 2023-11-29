@@ -6,23 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>938</width>
-    <height>539</height>
+    <width>565</width>
+    <height>437</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(172, 172, 172);
+   <string notr="true">
 </string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="AdProduto">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>50</y>
+      <x>30</x>
+      <y>40</y>
       <width>241</width>
       <height>101</height>
      </rect>
@@ -34,8 +34,8 @@
    <widget class="QPushButton" name="EEstoque">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>160</y>
+      <x>280</x>
+      <y>150</y>
       <width>241</width>
       <height>101</height>
      </rect>
@@ -47,8 +47,8 @@
    <widget class="QPushButton" name="VProduto">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>160</y>
+      <x>30</x>
+      <y>150</y>
       <width>241</width>
       <height>101</height>
      </rect>
@@ -60,8 +60,8 @@
    <widget class="QPushButton" name="AdFunc">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>50</y>
+      <x>280</x>
+      <y>40</y>
       <width>241</width>
       <height>101</height>
      </rect>
@@ -73,14 +73,27 @@
    <widget class="QPushButton" name="RemoverPro">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>270</y>
+      <x>30</x>
+      <y>260</y>
       <width>241</width>
       <height>91</height>
      </rect>
     </property>
     <property name="text">
      <string>Remover Produto</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>260</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dados de Vendas</string>
     </property>
    </widget>
   </widget>
@@ -90,7 +103,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>938</width>
+     <width>565</width>
      <height>25</height>
     </rect>
    </property>

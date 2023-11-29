@@ -19,7 +19,7 @@ class VenderProdutos : public QDialog
 public:
     explicit VenderProdutos(QWidget *parent = nullptr);
     ~VenderProdutos();
-    void setDados(Estoque* e,Caixa* c,std::vector<Funcionario*>f);
+    void setDados(Estoque* e,Caixa* c,std::vector<Funcionario*> *f);
 
 private slots:
    // void on_pushButton_clicked();
@@ -34,7 +34,7 @@ private:
     Estoque* e0;
     Caixa* cx0;
     bool pedidoInicializado;
-    std::vector<Funcionario*>f0;
+    std::vector<Funcionario*> *f0;
 
 };
 

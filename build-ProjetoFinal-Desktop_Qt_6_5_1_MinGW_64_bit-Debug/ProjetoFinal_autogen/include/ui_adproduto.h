@@ -37,15 +37,19 @@ public:
     QLineEdit *Tipo_txt;
     QLineEdit *Qtd_txt;
     QLabel *label_9;
+    QLabel *label_10;
+    QLabel *label_11;
+    QLineEdit *IdGerente_txt;
+    QLineEdit *Senha_Txt;
 
     void setupUi(QDialog *AdProduto)
     {
         if (AdProduto->objectName().isEmpty())
             AdProduto->setObjectName("AdProduto");
-        AdProduto->resize(726, 435);
+        AdProduto->resize(692, 329);
         SalvarBt = new QPushButton(AdProduto);
         SalvarBt->setObjectName("SalvarBt");
-        SalvarBt->setGeometry(QRect(550, 350, 161, 71));
+        SalvarBt->setGeometry(QRect(340, 150, 161, 71));
         label = new QLabel(AdProduto);
         label->setObjectName("label");
         label->setGeometry(QRect(20, 60, 71, 31));
@@ -63,7 +67,7 @@ public:
         label_5->setGeometry(QRect(20, 220, 71, 31));
         label_6 = new QLabel(AdProduto);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(320, 60, 201, 31));
+        label_6->setGeometry(QRect(330, 230, 201, 31));
         label_7 = new QLabel(AdProduto);
         label_7->setObjectName("label_7");
         label_7->setGeometry(QRect(20, 10, 221, 31));
@@ -87,10 +91,23 @@ public:
         Tipo_txt->setGeometry(QRect(120, 140, 191, 31));
         Qtd_txt = new QLineEdit(AdProduto);
         Qtd_txt->setObjectName("Qtd_txt");
-        Qtd_txt->setGeometry(QRect(120, 270, 191, 28));
+        Qtd_txt->setGeometry(QRect(120, 267, 191, 31));
         label_9 = new QLabel(AdProduto);
         label_9->setObjectName("label_9");
-        label_9->setGeometry(QRect(320, 90, 191, 20));
+        label_9->setGeometry(QRect(330, 270, 191, 20));
+        label_10 = new QLabel(AdProduto);
+        label_10->setObjectName("label_10");
+        label_10->setGeometry(QRect(340, 60, 111, 31));
+        label_11 = new QLabel(AdProduto);
+        label_11->setObjectName("label_11");
+        label_11->setGeometry(QRect(340, 100, 111, 20));
+        IdGerente_txt = new QLineEdit(AdProduto);
+        IdGerente_txt->setObjectName("IdGerente_txt");
+        IdGerente_txt->setGeometry(QRect(450, 60, 231, 28));
+        Senha_Txt = new QLineEdit(AdProduto);
+        Senha_Txt->setObjectName("Senha_Txt");
+        Senha_Txt->setGeometry(QRect(450, 100, 231, 28));
+        Senha_Txt->setEchoMode(QLineEdit::Password);
 
         retranslateUi(AdProduto);
 
@@ -110,6 +127,8 @@ public:
         label_7->setText(QCoreApplication::translate("AdProduto", "Pagina de Cadastro de Produto", nullptr));
         label_8->setText(QCoreApplication::translate("AdProduto", "Quantidade", nullptr));
         label_9->setText(QCoreApplication::translate("AdProduto", "*Complete todos os Espa\303\247os", nullptr));
+        label_10->setText(QCoreApplication::translate("AdProduto", "Id Gerente:", nullptr));
+        label_11->setText(QCoreApplication::translate("AdProduto", "Senha Gerente:", nullptr));
     } // retranslateUi
 
 };

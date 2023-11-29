@@ -14,7 +14,7 @@ VenderProdutos::VenderProdutos(QWidget *parent) :
     ui->setupUi(this);
 }
 
-void VenderProdutos::setDados(Estoque* e,Caixa* c,std::vector<Funcionario*>f){
+void VenderProdutos::setDados(Estoque* e,Caixa* c,std::vector<Funcionario*> *f){
     e0=e;
     cx0=c;
     f0=f;
@@ -45,7 +45,7 @@ void VenderProdutos::on_AdProduto_bt_clicked()
 
     try{
         bool aux=true;
-        for(auto it=f0.begin();it!=f0.end();it++){
+        for(auto (it)=f0->begin();(it)!=f0->end();it++){
             if((*it)->getnomeCompleto()==nome && (*it)->getId()==id && pedidoInicializado==false){
                 (*it)->criarPedido(fp,end,dtV);
                 (*it)->venderProduto(e0,nomeP,qtd);
@@ -63,13 +63,14 @@ void VenderProdutos::on_AdProduto_bt_clicked()
                 aux=false;
             }
         }
-        if(aux=true){
+        if(aux==true){
             throw std::invalid_argument("Produto não encontrado ou funcionario invalido");
         }
     }catch(const std::invalid_argument& e){
         QMessageBox::critical(this,"Mensagem",e.what());
     }
-
+    ui->Produto_txt->clear();
+    ui->Qtd_txt->clear();
 
 }
 
@@ -89,7 +90,7 @@ void VenderProdutos::on_FinalizaP_bt_clicked()
         if(pedidoInicializado==false){
             throw std::invalid_argument("Produtos não foi inicializado");
         }else{
-            for(auto it=f0.begin();it!=f0.end();it++){
+            for(auto it=f0->begin();it!=f0->end();it++){
                 if((*it)->getnomeCompleto()==nome && (*it)->getId()==id && pedidoInicializado==true){
                     (*it)->finalizarPedido(cx0);
                     QMessageBox::about(this,"Mensagem","Compra finalizada");
@@ -105,5 +106,15 @@ void VenderProdutos::on_FinalizaP_bt_clicked()
     }catch(const std::invalid_argument& e){
         QMessageBox::critical(this,"Mensagem",e.what());
     }
+
+    ui->Produto_txt->clear();
+    ui->Qtd_txt->clear();
+    ui->Nome_txt->clear();
+    ui->Id_txt->clear();
+    ui->FPag_txt->clear();
+    ui->End_txt->clear();
+    ui->Data_txt->clear();
+
+
 }
 

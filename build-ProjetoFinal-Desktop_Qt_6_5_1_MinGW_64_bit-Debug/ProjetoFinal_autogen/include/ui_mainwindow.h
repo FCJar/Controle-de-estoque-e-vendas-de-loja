@@ -30,6 +30,7 @@ public:
     QPushButton *VProduto;
     QPushButton *AdFunc;
     QPushButton *RemoverPro;
+    QPushButton *pushButton;
     QStatusBar *statusbar;
     QMenuBar *menubar;
     QMenu *menuPagina_Inicial;
@@ -38,33 +39,35 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(938, 539);
-        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(172, 172, 172);\n"
-""));
+        MainWindow->resize(565, 437);
+        MainWindow->setStyleSheet(QString::fromUtf8(""));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         AdProduto = new QPushButton(centralwidget);
         AdProduto->setObjectName("AdProduto");
-        AdProduto->setGeometry(QRect(10, 50, 241, 101));
+        AdProduto->setGeometry(QRect(30, 40, 241, 101));
         EEstoque = new QPushButton(centralwidget);
         EEstoque->setObjectName("EEstoque");
-        EEstoque->setGeometry(QRect(260, 160, 241, 101));
+        EEstoque->setGeometry(QRect(280, 150, 241, 101));
         VProduto = new QPushButton(centralwidget);
         VProduto->setObjectName("VProduto");
-        VProduto->setGeometry(QRect(10, 160, 241, 101));
+        VProduto->setGeometry(QRect(30, 150, 241, 101));
         AdFunc = new QPushButton(centralwidget);
         AdFunc->setObjectName("AdFunc");
-        AdFunc->setGeometry(QRect(260, 50, 241, 101));
+        AdFunc->setGeometry(QRect(280, 40, 241, 101));
         RemoverPro = new QPushButton(centralwidget);
         RemoverPro->setObjectName("RemoverPro");
-        RemoverPro->setGeometry(QRect(10, 270, 241, 91));
+        RemoverPro->setGeometry(QRect(30, 260, 241, 91));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(280, 260, 241, 91));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 938, 25));
+        menubar->setGeometry(QRect(0, 0, 565, 25));
         menuPagina_Inicial = new QMenu(menubar);
         menuPagina_Inicial->setObjectName("menuPagina_Inicial");
         MainWindow->setMenuBar(menubar);
@@ -86,6 +89,7 @@ public:
         VProduto->setText(QCoreApplication::translate("MainWindow", "Vender Produto", nullptr));
         AdFunc->setText(QCoreApplication::translate("MainWindow", "Adcionar Funcionario", nullptr));
         RemoverPro->setText(QCoreApplication::translate("MainWindow", "Remover Produto", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Dados de Vendas", nullptr));
         menuPagina_Inicial->setTitle(QCoreApplication::translate("MainWindow", "Pagina Inicial", nullptr));
     } // retranslateUi
 

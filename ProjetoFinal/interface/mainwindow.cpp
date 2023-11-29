@@ -15,7 +15,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_AdProduto_clicked()
 {
     AdProduto ap;
-    ap.setEstoque(e0);
+    ap.setEstoque(e0,g0);
     ap.exec();
 }
 
@@ -28,7 +28,9 @@ void MainWindow::on_EEstoque_clicked()
 
 void MainWindow::on_AdFunc_clicked()
 {
-
+    AdcionarFuncionarios ad;
+    ad.setDados(funcs);
+    ad.exec();
 }
 
 
@@ -42,12 +44,16 @@ void MainWindow::on_VProduto_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-
+    DadosDeVenda d;
+    d.setDados(cx,g0);
+    d.exec();
 }
 
 
 void MainWindow::on_RemoverPro_clicked()
 {
-
+    RemoveProduto r;
+    r.setDados(e0,funcs);
+    r.exec();
 }
 

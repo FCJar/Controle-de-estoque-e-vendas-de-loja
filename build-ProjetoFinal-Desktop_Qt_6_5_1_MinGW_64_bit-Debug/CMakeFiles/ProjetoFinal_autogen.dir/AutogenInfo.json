@@ -291,15 +291,39 @@
 			null
 		],
 		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.h",
+			"MU",
+			"XBG7L5Z4V6/moc_adcionarfuncionarios.cpp",
+			null
+		],
+		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h",
 			"MU",
 			"XBG7L5Z4V6/moc_adproduto.cpp",
 			null
 		],
 		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.h",
+			"MU",
+			"XBG7L5Z4V6/moc_dadosdevenda.cpp",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.h",
+			"MU",
+			"XBG7L5Z4V6/moc_exibirestoque.cpp",
+			null
+		],
+		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h",
 			"MU",
 			"XBG7L5Z4V6/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.h",
+			"MU",
+			"XBG7L5Z4V6/moc_removeproduto.cpp",
 			null
 		],
 		[
@@ -379,7 +403,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.cpp",
 			"MU",
 			null
 		],
@@ -390,6 +429,11 @@
 		],
 		[
 			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.cpp",
 			"MU",
 			null
 		],

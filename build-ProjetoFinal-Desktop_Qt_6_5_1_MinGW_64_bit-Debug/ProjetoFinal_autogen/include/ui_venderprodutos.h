@@ -43,7 +43,7 @@ public:
     {
         if (VenderProdutos->objectName().isEmpty())
             VenderProdutos->setObjectName("VenderProdutos");
-        VenderProdutos->resize(865, 325);
+        VenderProdutos->resize(865, 363);
         FPag_txt = new QLineEdit(VenderProdutos);
         FPag_txt->setObjectName("FPag_txt");
         FPag_txt->setGeometry(QRect(150, 60, 241, 28));
@@ -64,10 +64,10 @@ public:
         label_3->setGeometry(QRect(20, 140, 91, 20));
         label_4 = new QLabel(VenderProdutos);
         label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(30, 10, 101, 31));
+        label_4->setGeometry(QRect(390, 10, 101, 31));
         FinalizaP_bt = new QPushButton(VenderProdutos);
         FinalizaP_bt->setObjectName("FinalizaP_bt");
-        FinalizaP_bt->setGeometry(QRect(550, 260, 221, 41));
+        FinalizaP_bt->setGeometry(QRect(530, 270, 221, 41));
         label_5 = new QLabel(VenderProdutos);
         label_5->setObjectName("label_5");
         label_5->setGeometry(QRect(410, 100, 111, 20));
@@ -85,7 +85,7 @@ public:
         label_6->setGeometry(QRect(10, 260, 91, 20));
         Produto_txt = new QLineEdit(VenderProdutos);
         Produto_txt->setObjectName("Produto_txt");
-        Produto_txt->setGeometry(QRect(140, 220, 241, 28));
+        Produto_txt->setGeometry(QRect(140, 217, 241, 31));
         Qtd_txt = new QLineEdit(VenderProdutos);
         Qtd_txt->setObjectName("Qtd_txt");
         Qtd_txt->setGeometry(QRect(140, 260, 241, 28));
@@ -94,7 +94,7 @@ public:
         label_8->setGeometry(QRect(10, 220, 121, 20));
         AdProduto_bt = new QPushButton(VenderProdutos);
         AdProduto_bt->setObjectName("AdProduto_bt");
-        AdProduto_bt->setGeometry(QRect(550, 210, 221, 41));
+        AdProduto_bt->setGeometry(QRect(530, 220, 221, 41));
 
         retranslateUi(VenderProdutos);
 

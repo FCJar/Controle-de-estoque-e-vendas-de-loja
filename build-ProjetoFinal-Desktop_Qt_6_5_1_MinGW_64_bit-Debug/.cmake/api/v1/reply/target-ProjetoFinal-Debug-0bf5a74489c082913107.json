@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 45,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 77,
+				"line" : 86,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 67,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
@@ -371,23 +371,26 @@
 				5,
 				9,
 				12,
-				20,
+				15,
+				18,
 				21,
-				22,
-				23,
-				24,
-				25
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "ProjetoFinal_autogen::@6890427a1f51a3e7e1df"
+			"id" : "ProjetoFinal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ProjetoFinal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "ProjetoFinal_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ProjetoFinal::@6890427a1f51a3e7e1df",
@@ -503,12 +506,15 @@
 				5,
 				9,
 				12,
-				20,
+				15,
+				18,
 				21,
-				22,
-				23,
-				24,
-				25
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
 			]
 		},
 		{
@@ -520,15 +526,21 @@
 				8,
 				11,
 				14,
-				15,
-				16,
 				17,
-				18,
-				19,
+				20,
+				23,
+				24,
+				25,
 				26,
 				27,
 				28,
-				29
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
 			]
 		},
 		{
@@ -539,14 +551,17 @@
 				7,
 				10,
 				13,
-				30
+				16,
+				19,
+				22,
+				42
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				31
+				43
 			]
 		}
 	],
@@ -615,18 +630,66 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "interface/produto.h",
+			"path" : "interface/removeproduto.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "interface/produto.cpp",
+			"path" : "interface/removeproduto.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "interface/produto.ui",
+			"path" : "interface/removeproduto.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/adcionarfuncionarios.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "interface/adcionarfuncionarios.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/adcionarfuncionarios.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/dadosdevenda.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "interface/dadosdevenda.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/dadosdevenda.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/exibirestoque.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "interface/exibirestoque.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "interface/exibirestoque.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -716,7 +779,25 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include/interface/ui_produto.h",
+			"path" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include/interface/ui_removeproduto.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include/interface/ui_adcionarfuncionarios.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include/interface/ui_dadosdevenda.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include/interface/ui_exibirestoque.h",
 			"sourceGroupIndex" : 1
 		},
 		{

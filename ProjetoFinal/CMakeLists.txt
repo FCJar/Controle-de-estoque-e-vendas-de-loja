@@ -23,6 +23,18 @@ set(PROJECT_SOURCES
         interface/venderprodutos.h
         interface/venderprodutos.cpp
         interface/venderprodutos.ui
+        interface/removeproduto.h
+        interface/removeproduto.cpp
+        interface/removeproduto.ui
+        interface/adcionarfuncionarios.h
+        interface/adcionarfuncionarios.cpp
+        interface/adcionarfuncionarios.ui
+        interface/dadosdevenda.h
+        interface/dadosdevenda.cpp
+        interface/dadosdevenda.ui
+        interface/exibirestoque.h
+        interface/exibirestoque.cpp
+        interface/exibirestoque.ui
         include/Caixa.hpp
         include/Estoque.hpp
         include/Funcionario.hpp

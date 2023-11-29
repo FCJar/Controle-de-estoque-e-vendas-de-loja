@@ -10,8 +10,11 @@
 #include "../include/Pedido.hpp"
 #include "../include/Produto.hpp"
 
+#include "removeproduto.h"
 #include "adproduto.h"
 #include "venderprodutos.h"
+#include "AdcionarFuncionarios.h"
+#include "dadosdevenda.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -42,6 +45,7 @@ private:
     Ui::MainWindow *ui;
     Estoque *e0=new Estoque(1);
     Caixa *cx;
-    std::vector<Funcionario*> funcs;
+    std::vector<Funcionario*> *funcs;
+    std::vector<Gerente*> *g0;
 };
 #endif // MAINWINDOW_H

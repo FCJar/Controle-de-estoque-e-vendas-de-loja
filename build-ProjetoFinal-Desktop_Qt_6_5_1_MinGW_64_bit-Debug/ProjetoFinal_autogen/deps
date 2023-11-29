@@ -133,8 +133,10 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMessageBox \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
+	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmessagebox.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -531,11 +533,19 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Gerente.hpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Pedido.hpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/include/Produto.hpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/main.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.cpp \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.cpp \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.h \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Caixa.cpp \
@@ -549,7 +559,11 @@ ProjetoFinal_autogen/timestamp: \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/moc_predefs.h \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.ui \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adproduto.ui \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.ui \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.ui \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/mainwindow.ui \
+	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.ui \
 	C:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/venderprodutos.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

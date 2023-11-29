@@ -89,6 +89,38 @@ build CMakeFiles/ProjetoFinal.dir/interface/venderprodutos.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\ProjetoFinal.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjetoFinal.dir\interface
 
+build CMakeFiles/ProjetoFinal.dir/interface/removeproduto.cpp.obj: CXX_COMPILER__ProjetoFinal_Debug C$:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/removeproduto.cpp || cmake_object_order_depends_target_ProjetoFinal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ProjetoFinal.dir\interface\removeproduto.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -IC:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include -isystem C:/Qt/6.5.1/mingw_64/include/QtCore -isystem C:/Qt/6.5.1/mingw_64/include -isystem C:/Qt/6.5.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.5.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.5.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ProjetoFinal.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjetoFinal.dir\interface
+
+build CMakeFiles/ProjetoFinal.dir/interface/adcionarfuncionarios.cpp.obj: CXX_COMPILER__ProjetoFinal_Debug C$:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/adcionarfuncionarios.cpp || cmake_object_order_depends_target_ProjetoFinal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ProjetoFinal.dir\interface\adcionarfuncionarios.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -IC:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include -isystem C:/Qt/6.5.1/mingw_64/include/QtCore -isystem C:/Qt/6.5.1/mingw_64/include -isystem C:/Qt/6.5.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.5.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.5.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ProjetoFinal.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjetoFinal.dir\interface
+
+build CMakeFiles/ProjetoFinal.dir/interface/dadosdevenda.cpp.obj: CXX_COMPILER__ProjetoFinal_Debug C$:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/dadosdevenda.cpp || cmake_object_order_depends_target_ProjetoFinal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ProjetoFinal.dir\interface\dadosdevenda.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -IC:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include -isystem C:/Qt/6.5.1/mingw_64/include/QtCore -isystem C:/Qt/6.5.1/mingw_64/include -isystem C:/Qt/6.5.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.5.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.5.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ProjetoFinal.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjetoFinal.dir\interface
+
+build CMakeFiles/ProjetoFinal.dir/interface/exibirestoque.cpp.obj: CXX_COMPILER__ProjetoFinal_Debug C$:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/interface/exibirestoque.cpp || cmake_object_order_depends_target_ProjetoFinal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ProjetoFinal.dir\interface\exibirestoque.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -IC:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/build-ProjetoFinal-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/ProjetoFinal_autogen/include -isystem C:/Qt/6.5.1/mingw_64/include/QtCore -isystem C:/Qt/6.5.1/mingw_64/include -isystem C:/Qt/6.5.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.5.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.5.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ProjetoFinal.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjetoFinal.dir\interface
+
 build CMakeFiles/ProjetoFinal.dir/src/Caixa.cpp.obj: CXX_COMPILER__ProjetoFinal_Debug C$:/Users/fcgam/OneDrive/Documentos/TF/Controle-de-estoque-e-vendas-de-loja/ProjetoFinal/src/Caixa.cpp || cmake_object_order_depends_target_ProjetoFinal
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ProjetoFinal.dir\src\Caixa.cpp.obj.d
@@ -145,7 +177,7 @@ build CMakeFiles/ProjetoFinal.dir/src/Produto.cpp.obj: CXX_COMPILER__ProjetoFina
 #############################################
 # Link the executable ProjetoFinal.exe
 
-build ProjetoFinal.exe: CXX_EXECUTABLE_LINKER__ProjetoFinal_Debug CMakeFiles/ProjetoFinal.dir/ProjetoFinal_autogen/mocs_compilation.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/main.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/mainwindow.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/adproduto.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/venderprodutos.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Caixa.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Estoque.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Funcionario.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Gerente.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Pedido.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Produto.cpp.obj | C$:/Qt/6.5.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.5.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.5.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.1/mingw_64/lib/libQt6EntryPoint.a || ProjetoFinal_autogen ProjetoFinal_autogen_timestamp_deps
+build ProjetoFinal.exe: CXX_EXECUTABLE_LINKER__ProjetoFinal_Debug CMakeFiles/ProjetoFinal.dir/ProjetoFinal_autogen/mocs_compilation.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/main.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/mainwindow.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/adproduto.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/venderprodutos.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/removeproduto.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/adcionarfuncionarios.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/dadosdevenda.cpp.obj CMakeFiles/ProjetoFinal.dir/interface/exibirestoque.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Caixa.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Estoque.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Funcionario.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Gerente.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Pedido.cpp.obj CMakeFiles/ProjetoFinal.dir/src/Produto.cpp.obj | C$:/Qt/6.5.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.5.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.5.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.1/mingw_64/lib/libQt6EntryPoint.a || ProjetoFinal_autogen ProjetoFinal_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.5.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.5.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.5.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.5.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ldcomp  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -232,7 +264,7 @@ build ProjetoFinal_autogen_timestamp_deps: phony CMakeFiles/ProjetoFinal_autogen
 #############################################
 # Utility command for ProjetoFinal_autogen
 
-build ProjetoFinal_autogen: phony CMakeFiles/ProjetoFinal_autogen ProjetoFinal_autogen/include/interface/ui_mainwindow.h ProjetoFinal_autogen/include/interface/ui_adproduto.h ProjetoFinal_autogen/include/interface/ui_venderprodutos.h ProjetoFinal_autogen/timestamp ProjetoFinal_autogen/mocs_compilation.cpp ProjetoFinal_autogen_timestamp_deps
+build ProjetoFinal_autogen: phony CMakeFiles/ProjetoFinal_autogen ProjetoFinal_autogen/include/interface/ui_mainwindow.h ProjetoFinal_autogen/include/interface/ui_adproduto.h ProjetoFinal_autogen/include/interface/ui_venderprodutos.h ProjetoFinal_autogen/include/interface/ui_removeproduto.h ProjetoFinal_autogen/include/interface/ui_adcionarfuncionarios.h ProjetoFinal_autogen/include/interface/ui_dadosdevenda.h ProjetoFinal_autogen/include/interface/ui_exibirestoque.h ProjetoFinal_autogen/timestamp ProjetoFinal_autogen/mocs_compilation.cpp ProjetoFinal_autogen_timestamp_deps
 
 
 #############################################
@@ -254,7 +286,7 @@ build CMakeFiles/ProjetoFinal_autogen_timestamp_deps | ${cmake_ninja_workdir}CMa
 #############################################
 # Phony custom command for CMakeFiles\ProjetoFinal_autogen
 
-build CMakeFiles/ProjetoFinal_autogen ProjetoFinal_autogen/include/interface/ui_mainwindow.h ProjetoFinal_autogen/include/interface/ui_adproduto.h ProjetoFinal_autogen/include/interface/ui_venderprodutos.h | ${cmake_ninja_workdir}CMakeFiles/ProjetoFinal_autogen ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_mainwindow.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_adproduto.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_venderprodutos.h: phony ProjetoFinal_autogen/timestamp || ProjetoFinal_autogen_timestamp_deps
+build CMakeFiles/ProjetoFinal_autogen ProjetoFinal_autogen/include/interface/ui_mainwindow.h ProjetoFinal_autogen/include/interface/ui_adproduto.h ProjetoFinal_autogen/include/interface/ui_venderprodutos.h ProjetoFinal_autogen/include/interface/ui_removeproduto.h ProjetoFinal_autogen/include/interface/ui_adcionarfuncionarios.h ProjetoFinal_autogen/include/interface/ui_dadosdevenda.h ProjetoFinal_autogen/include/interface/ui_exibirestoque.h | ${cmake_ninja_workdir}CMakeFiles/ProjetoFinal_autogen ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_mainwindow.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_adproduto.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_venderprodutos.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_removeproduto.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_adcionarfuncionarios.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_dadosdevenda.h ${cmake_ninja_workdir}ProjetoFinal_autogen/include/interface/ui_exibirestoque.h: phony ProjetoFinal_autogen/timestamp || ProjetoFinal_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
