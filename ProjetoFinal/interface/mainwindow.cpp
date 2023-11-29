@@ -22,7 +22,9 @@ void MainWindow::on_AdProduto_clicked()
 
 void MainWindow::on_EEstoque_clicked()
 {
-
+    ExibirEstoque exb;
+    exb.setDados(e0);
+    exb.exec();
 }
 
 
@@ -55,5 +57,12 @@ void MainWindow::on_RemoverPro_clicked()
     RemoveProduto r;
     r.setDados(e0,funcs);
     r.exec();
+}
+
+void MainWindow::SetDados(Estoque *e,Caixa *c,std::vector<Funcionario*> *f,std::vector<Gerente*> *g){
+    e0=e;
+    cx=c;
+    funcs=f;
+    g0=g;
 }
 

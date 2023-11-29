@@ -29,8 +29,8 @@ void DadosDeVenda::on_ConfirmarButton_clicked()
     std::string escolha;
     int id,senha;
     try{
-        id=std::stoi(ui->IdGerente_txt->text().toStdString());
-        senha=std::stoi(ui->Senha_txt->text().toStdString());
+        //id=std::stoi(ui->IdGerente_txt->text().toStdString());
+        //senha=std::stoi(ui->Senha_txt->text().toStdString());
         escolha=ui->comboBox->currentText().toStdString();
 
         for(auto it=g0->begin();it!=g0->end();it++){

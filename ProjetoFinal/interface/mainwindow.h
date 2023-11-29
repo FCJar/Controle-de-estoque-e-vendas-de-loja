@@ -15,6 +15,7 @@
 #include "venderprodutos.h"
 #include "AdcionarFuncionarios.h"
 #include "dadosdevenda.h"
+#include "exibirestoque.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -27,7 +28,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    void SetDados(Estoque *e,Caixa *c,std::vector<Funcionario*> *f,std::vector<Gerente*> *g);
 private slots:
     void on_AdProduto_clicked();
 
@@ -43,7 +44,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    Estoque *e0=new Estoque(1);
+    Estoque *e0;
     Caixa *cx;
     std::vector<Funcionario*> *funcs;
     std::vector<Gerente*> *g0;
