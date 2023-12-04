@@ -3,6 +3,7 @@ Caixa::Caixa(int idCx){
     idCaixa_=idCx;
 }
 void Caixa::addPedidoPago(Pedido* pedido){
+    lucroTotal_=pedido->getLucroPorVenda();
     pedidosPagos_.push_back(pedido);
 }
 void Caixa::removePedido(int idComanda){
