@@ -95,7 +95,7 @@
     <string>Dados do Novo funcionario</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="AddButton">
    <property name="geometry">
     <rect>
      <x>120</x>

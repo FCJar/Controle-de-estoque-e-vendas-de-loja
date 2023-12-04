@@ -4,7 +4,6 @@
 Caixa::Caixa(int idCx) {
     try {
         // Tenta realizar as operações dentro deste bloco
-        lucroTotal_=0;
         idCaixa_ = idCx;
     } catch (const std::exception &e) {
         // Se uma exceção for capturada, exibe uma mensagem de erro (pode ser ajustado conforme necessário)
@@ -16,7 +15,6 @@ Caixa::Caixa(int idCx) {
 void Caixa::addPedidoPago(Pedido *pedido) {
     try {
         // Tenta realizar as operações dentro deste bloco
-        lucroTotal_+=pedido->getLucroPorVenda();
         pedidosPagos_.push_back(pedido);
     } catch (const std::exception &e) {
         // Se uma exceção for capturada, exibe uma mensagem de erro (pode ser ajustado conforme necessário)

@@ -10,7 +10,7 @@
 class Estoque
 {
 private:
-    std::vector <Produto*> produtos_;
+
     int idRegistro_;
 public:
     Estoque(int id);
@@ -18,6 +18,7 @@ public:
     void adcionarProduto(Produto* p);
     Produto* venderProduto(std::string nomeProduto,int qtd);
     std::vector <Produto> infoRegistroProdutos();
+    std::vector <Produto*> produtos_;
 };
 
 

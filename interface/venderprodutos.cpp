@@ -39,6 +39,12 @@ void VenderProdutos::on_AdProduto_bt_clicked()
         end=ui->End_txt->text().toStdString();
         dtV=ui->Data_txt->text().toStdString();
 
+        // Adiciona asserts para verificar as condições
+        assert(qtd >= 0.0 && "A quantidade não pode ser negativo");
+        assert(id >= 0.0 && "O id não pode ser negativo");
+        assert(!nome.empty() && "O nome não pode estar vazio");
+        assert(!nomeP.empty() && "O nome do produto não pode estar vazio");
+
     }catch(const std::invalid_argument& e){
         QMessageBox::critical(this,"Mensagem","Dados de produto invalido");
     }

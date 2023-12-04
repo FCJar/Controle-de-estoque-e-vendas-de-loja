@@ -53,9 +53,9 @@ void ExibirEstoque::on_pushButton_clicked() {
                 QString dados = "Nome: ";
                 dados += it->getNome();
                 dados += " || Preço:";
-                dados += QString::number(it->getPreco());
-                //dados += " || Data de Validade:";
-                //dados += it->getDataValidade();
+                    dados += QString::number(it->getPreco());
+                dados += " || Data de Validade:";
+                dados += it->getDataValidade();
                 QMessageBox::about(this, "Dados do Produto", dados);
                 produtoEncontrado = true;
             }

@@ -28,6 +28,7 @@ void AdcionarFuncionarios::on_AddButton_clicked()
 {
     double slaux;
     std::string nomeaux, cpf;
+
     try {
         slaux = std::stod(ui->Salario_txt->text().toStdString());
         nomeaux = ui->Nome_txt->text().toStdString();
@@ -38,9 +39,16 @@ void AdcionarFuncionarios::on_AddButton_clicked()
         assert(!nomeaux.empty() && "O nome não pode estar vazio");
         assert(!cpf.empty() && "O CPF não pode estar vazio");
 
+        // Funcionario(int id,std::string cpf,std::string nomeCompleto,double salario);
+
         Funcionario* f = new Funcionario(f0->size() + 1, cpf, nomeaux, slaux);
         (f0)->push_back(f);
+
+        QMessageBox::about(this, "Mensagem", "Funcionário Adicionado!");
+        std::cout << "Funcionário adicionado" << std::endl;
+
     } catch(const std::invalid_argument& e) {
+        std::cout << "Erro" << std::endl;
         QMessageBox::critical(this, "Mensagem", "Dados inválidos");
     }
     ui->Salario_txt->clear();
