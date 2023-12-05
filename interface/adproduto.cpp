@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 #include <QMessageBox>
-#include <exception>
+#include <stdexcept>
 
 AdProduto::AdProduto(QWidget *parent) :
     QDialog(parent),
@@ -23,15 +23,23 @@ void AdProduto::setEstoque(Estoque* e, std::vector<Gerente*> *g)
     g0 = g;
 }
 
+bool validarEntradas(int id, int qtd, double preco, double lucroP)
+{
+    if (id <= 0 || qtd < 0 || preco <= 0 || lucroP < 0) {
+        throw std::invalid_argument("Valores devem ser maiores que zero");
+    }
+    return true;
+}
+
 void AdProduto::on_SalvarBt_clicked()
 {
-    bool a = false;
-    std::string nome, tipo;
+    std::string nome = ui->Nome_txt->text().toStdString();
+    std::string tipo = ui->Tipo_txt->text().toStdString();
+
     int id, qtd = 0;
     double preco, lucroP;
 
-    nome = ui->Nome_txt->text().toStdString();
-    tipo = ui->Tipo_txt->text().toStdString();
+    bool a = false;
 
     try {
         id = std::stoi(ui->Id_txt->text().toStdString());
@@ -39,11 +47,9 @@ void AdProduto::on_SalvarBt_clicked()
         preco = std::stod(ui->Preco_txt->text().toStdString());
         lucroP = std::stod(ui->Lucro_txt->text().toStdString());
 
-        if (id <= 0 || qtd < 0 || preco <= 0 || lucroP < 0) {
-            throw std::invalid_argument("Valores devem ser maiores que zero");
-        }
+        a = validarEntradas(id, qtd, preco, lucroP);
 
-    } catch (...) {
+    } catch (const std::exception &) {
         QMessageBox::critical(this, "Mensagem", "Erro crítico de Inserção de dados");
         a = true;
     }
@@ -77,7 +83,7 @@ void AdProduto::on_SalvarBt_clicked()
                     break;
                 }
             }
-        } catch (const std::invalid_argument &e) {
+        } catch (const std::invalid_argument &) {
             QMessageBox::critical(this, "Mensagem", "Dados de Gerente inválido");
                 ui->IdGerente_txt->clear();
             ui->Senha_Txt->clear();
