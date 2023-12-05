@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-
 #include <QApplication>
 #include "../include/Caixa.hpp"
 #include "../include/Estoque.hpp"
@@ -7,23 +6,32 @@
 #include "../include/Gerente.hpp"
 #include "../include/Pedido.hpp"
 #include "../include/Produto.hpp"
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
+    // Criação dos objetos principais
+    Estoque *estoque = new Estoque(1);
+    Caixa *caixa = new Caixa(1);
+    std::vector<Funcionario*> funcionarios;
+    std::vector<Gerente*> gerentes;
+
+    // Criação e adição de produtos ao estoque
+    Produto* produto0 = new Produto(1, "Pastel", "Comida", 50000.0, 200.0, 5);
+    Produto* produto1 = new Produto(2, "Carvão", "Equipamento", 75000.0, 200.0, 5);
+        Produto* produto2 = new Produto(3, "Melancia", "Comida", 60000.0, 200.0, 5);
+    Produto* produto3 = new Produto(4, "Cano Pvc", "Comida", 7500.0, 4000.0, 8);
+
+    estoque->adcionarProduto(produto0);
+    estoque->adcionarProduto(produto1);
+    estoque->adcionarProduto(produto2);
+    estoque->adcionarProduto(produto3);
+
+    // Configuração dos dados na MainWindow
     MainWindow w;
-    Estoque *e0=new Estoque(1);
-    Caixa *cx=new Caixa(1);
-    std::vector<Funcionario*> *funcs;
-    std::vector<Gerente*> *g0;
-    Produto* p0=new Produto(1,"Pastel","Comida",50000.0,200.0,5);
-    Produto* p1=new Produto(2,"Carvão","equipamento",75000.0,200.0,5);
-    Produto* p2=new Produto(3,"melancia","Comida",60000.0,200.0,5);
-    Produto* p3=new Produto(4,"Cano Pvc","Comida",7500.0,4000.0,8);
-    e0->adcionarProduto(p0);
-    e0->adcionarProduto(p1);
-    e0->adcionarProduto(p2);
-    e0->adcionarProduto(p3);
-    w.SetDados(e0,cx,funcs,g0);
+    w.SetDados(estoque, caixa, &funcionarios, &gerentes);
     w.show();
+
     return a.exec();
 }
