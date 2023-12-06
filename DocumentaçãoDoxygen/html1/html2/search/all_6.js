@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['filipe_20da_20costa_20jardim_0',['_ Filipe da Costa Jardim',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md9',1,'']]],
+  ['final_20de_20um_20número_20específico_20de_20vendas_20o_20produto_20mais_20vendido_20o_20produto_20menos_20vendido_20e_20os_20demais_20com_20um_20cálculo_20em_20porcentagem_20das_20vendas_20de_20acordo_20com_20a_20quantidade_1',['_O programa apresentará ao final de um número específico de vendas, o produto mais vendido, o produto menos vendido e os demais com um cálculo em porcentagem das vendas de acordo com a quantidade.',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md4',1,'']]],
+  ['finalizap_5fbt_2',['FinalizaP_bt',['../class_ui___vender_produtos.html#a4b5eb81920e503dfb1a38336ae14d3be',1,'Ui_VenderProdutos']]],
+  ['finalizarpedido_3',['finalizarpedido',['../class_funcionario.html#a5f20f0404db355a92fe74b50f9569902',1,'Funcionario::finalizarPedido(Caixa *cx2)'],['../class_funcionario.html#a5f20f0404db355a92fe74b50f9569902',1,'Funcionario::finalizarPedido(Caixa *cx2)']]],
+  ['fiscal_20do_20produto_20vendido_20debitando_20automaticamente_20do_20estoque_4',['_Nosso programa deve emitir a nota fiscal do produto vendido, debitando automaticamente do estoque.',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md5',1,'']]],
+  ['foi_20pago_20cartão_20pix_20e_20dinheiro_5',['_Gravar como o produto foi pago( cartão, pix e dinheiro).',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md7',1,'']]],
+  ['fpag_5ftxt_6',['FPag_txt',['../class_ui___vender_produtos.html#aed4ea1ba3b17745ef0e3720e15d82ddf',1,'Ui_VenderProdutos']]],
+  ['funcionalidades_20do_20programa_7',['Funcionalidades do Programa',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md2',1,'']]],
+  ['funcionario_8',['funcionario',['../class_funcionario.html',1,'Funcionario'],['../class_funcionario.html#a4bd8832120181b88af95de031a88f95e',1,'Funcionario::Funcionario(int id, std::string cpf, std::string nomeCompleto, double salario)'],['../class_funcionario.html#a4bd8832120181b88af95de031a88f95e',1,'Funcionario::Funcionario(int id, std::string cpf, std::string nomeCompleto, double salario)']]],
+  ['funcionario_2ecpp_9',['funcionario.cpp',['../_projeto_final_2src_2_funcionario_8cpp.html',1,'(Global Namespace)'],['../src_2_funcionario_8cpp.html',1,'(Global Namespace)']]],
+  ['funcionario_2ehpp_10',['funcionario.hpp',['../include_2_funcionario_8hpp.html',1,'(Global Namespace)'],['../_projeto_final_2include_2_funcionario_8hpp.html',1,'(Global Namespace)']]]
+];

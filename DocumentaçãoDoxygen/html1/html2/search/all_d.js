@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['número_20específico_20de_20vendas_20o_20produto_20mais_20vendido_20o_20produto_20menos_20vendido_20e_20os_20demais_20com_20um_20cálculo_20em_20porcentagem_20das_20vendas_20de_20acordo_20com_20a_20quantidade_0',['_O programa apresentará ao final de um número específico de vendas, o produto mais vendido, o produto menos vendido e os demais com um cálculo em porcentagem das vendas de acordo com a quantidade.',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md4',1,'']]],
+  ['nome_5ftxt_1',['nome_txt',['../class_ui___adcionar_funcionarios.html#a3d52ef45d84d6b3b11c568782f970240',1,'Ui_AdcionarFuncionarios::Nome_txt'],['../class_ui___ad_produto.html#acb89ba8b951049831014aedd4de09a37',1,'Ui_AdProduto::Nome_txt'],['../class_ui___remove_produto.html#a7a047a30cf7f42430d08bf3d188a7e8f',1,'Ui_RemoveProduto::Nome_txt'],['../class_ui___vender_produtos.html#a502887b588e2e12885e81219742f6c63',1,'Ui_VenderProdutos::Nome_txt']]],
+  ['nota_20fiscal_20do_20produto_20vendido_20debitando_20automaticamente_20do_20estoque_2',['_Nosso programa deve emitir a nota fiscal do produto vendido, debitando automaticamente do estoque.',['../md__c_1_2_users_2fcgam_2_one_drive_2_documentos_2_t_f_2_controle-de-estoque-e-vendas-de-loja_2_r_e_a_d_m_e.html#autotoc_md5',1,'']]]
+];
